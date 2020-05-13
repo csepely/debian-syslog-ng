@@ -1,0 +1,1 @@
+docker build --tag debian-syslog-ng:$(date +%s) --tag debian-syslog-ng:latest .

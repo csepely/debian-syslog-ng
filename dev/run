@@ -1,0 +1,1 @@
+docker run -tid -p514:514/udp -p601:601 --name debian-syslog-ng -v debian-syslog-ng-logs:/var/log/remote/ -v debian-syslog-ng-etc:/etc/syslog-ng/ debian-syslog-ng
